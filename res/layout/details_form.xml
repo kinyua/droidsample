@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget34"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/widget36"
+		android:layout_width="227px" android:layout_height="310px"
+		android:orientation="vertical" android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/widget37"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="First Name">
+		</TextView>
+		<EditText android:id="@+id/widget41"
+			android:layout_width="150px" android:layout_height="wrap_content"
+			android:textSize="18sp">
+		</EditText>
+		<TextView android:id="@+id/widget42"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Last Name">
+		</TextView>
+		<EditText android:id="@+id/widget48"
+			android:layout_width="150px" android:layout_height="wrap_content"
+			android:textSize="18sp">
+		</EditText>
+		<TextView android:id="@+id/widget37"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Gender">
+		</TextView>
+		<RadioGroup android:id="@+id/widget67"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<RadioButton android:id="@+id/widget68"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Male">
+			</RadioButton>
+			<RadioButton android:id="@+id/widget69"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Female">
+			</RadioButton>
+		</RadioGroup>
+		<TextView android:id="@+id/widget37"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Location">
+		</TextView>
+		<Spinner android:id="@+id/locationSpinner" android:layout_width="200px"
+			android:layout_height="wrap_content">
+		</Spinner>
+	</LinearLayout>
+	<Button android:id="@+id/saveButton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Save" android:layout_below="@+id/widget36"
+		android:layout_alignRight="@+id/widget36">
+	</Button>
+</RelativeLayout>
