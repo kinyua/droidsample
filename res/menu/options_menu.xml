@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_record"
+          android:title="Add Record"
+          android:icon="@drawable/add" />
+</menu>

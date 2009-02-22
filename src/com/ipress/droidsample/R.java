@@ -14,29 +14,36 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int add=0x7f020000;
+        public static final int icon=0x7f020001;
     }
     public static final class id {
-        public static final int addButton=0x7f06000c;
-        public static final int locationSpinner=0x7f060009;
-        public static final int saveButton=0x7f06000a;
-        public static final int spinnerTarget=0x7f06000e;
-        public static final int widget0=0x7f06000b;
-        public static final int widget29=0x7f06000d;
-        public static final int widget34=0x7f060000;
-        public static final int widget36=0x7f060001;
-        public static final int widget37=0x7f060002;
-        public static final int widget41=0x7f060003;
-        public static final int widget42=0x7f060004;
-        public static final int widget48=0x7f060005;
-        public static final int widget67=0x7f060006;
-        public static final int widget68=0x7f060007;
-        public static final int widget69=0x7f060008;
+        public static final int addButton=0x7f07000c;
+        public static final int add_record=0x7f070010;
+        public static final int fNameEdittext=0x7f070003;
+        public static final int femaleRBut=0x7f070008;
+        public static final int fname_text=0x7f07000d;
+        public static final int lNameEdittext=0x7f070005;
+        public static final int lname_text=0x7f07000e;
+        public static final int locationSpinner=0x7f070009;
+        public static final int maleRBut=0x7f070007;
+        public static final int saveButton=0x7f07000a;
+        public static final int spinnerTarget=0x7f07000f;
+        public static final int widget0=0x7f07000b;
+        public static final int widget34=0x7f070000;
+        public static final int widget36=0x7f070001;
+        public static final int widget37=0x7f070002;
+        public static final int widget42=0x7f070004;
+        public static final int widget67=0x7f070006;
     }
     public static final class layout {
         public static final int details_form=0x7f030000;
         public static final int main=0x7f030001;
-        public static final int spinner_location_items=0x7f030002;
+        public static final int records_row=0x7f030002;
+        public static final int spinner_location_items=0x7f030003;
+    }
+    public static final class menu {
+        public static final int options_menu=0x7f060000;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

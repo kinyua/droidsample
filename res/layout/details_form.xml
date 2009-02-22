@@ -10,7 +10,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:text="First Name">
 		</TextView>
-		<EditText android:id="@+id/widget41"
+		<EditText android:id="@+id/fNameEdittext"
 			android:layout_width="150px" android:layout_height="wrap_content"
 			android:textSize="18sp">
 		</EditText>
@@ -18,7 +18,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:text="Last Name">
 		</TextView>
-		<EditText android:id="@+id/widget48"
+		<EditText android:id="@+id/lNameEdittext"
 			android:layout_width="150px" android:layout_height="wrap_content"
 			android:textSize="18sp">
 		</EditText>
@@ -30,11 +30,11 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:orientation="vertical">
-			<RadioButton android:id="@+id/widget68"
+			<RadioButton android:id="@+id/maleRBut"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content" android:text="Male">
 			</RadioButton>
-			<RadioButton android:id="@+id/widget69"
+			<RadioButton android:id="@+id/femaleRBut"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content" android:text="Female">
 			</RadioButton>
